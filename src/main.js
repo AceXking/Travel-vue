@@ -5,9 +5,11 @@ import store from './store'
 // fastClick解决移动端300ms延迟问题
 import fastClick from 'fastclick'
 // 加载重置css
-import './assets/css/reset.css'
+import '@css/reset.css'
 // 1像素边框问题解决
-import './assets/css/border.css'
+import '@css/border.css'
+// 引入iconfont
+import '@css/iconfont/iconfont.css'
 
 
 Vue.config.productionTip = false
